@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Console
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-83.94811,"y":30.43758},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"tag":{"$content":"Player","$type":"System.String"}},"position":{"x":-569.0,"y":-17.0},"guid":"d05a77e5-5385-4a70-a6a7-07d4e1cd46d9","$version":"A","$type":"Bolt.SuperUnit","$id":"9"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Door","$type":"System.String"},"object":null},"position":{"x":-515.0,"y":123.0},"guid":"8ee6dd3f-cd8f-497e-a0e2-742a22e07ae4","$version":"A","$type":"Bolt.GetVariable","$id":"12"},{"argumentCount":0,"defaultValues":{"name":{"$content":"Open","$type":"System.String"},"target":null},"position":{"x":-279.0,"y":39.0},"guid":"7a5339d3-1806-49e0-ba4c-511652b91371","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"14"},{"sourceUnit":{"$ref":"9"},"sourceKey":"target","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"71d21912-0992-4b7d-96d1-edc82b16e115","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"target","guid":"794267f3-ff3c-41dc-b4da-9dc26eb98b66","$type":"Bolt.ValueConnection"},{"position":{"xMin":-617.0,"yMin":-83.0,"xMax":-87.0,"yMax":261.0},"label":"Open
+      the laser door when the player touches the console","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"8aacfa50-e6c8-4f5c-aadc-a7e4741963af","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: e10f8167a4ef1ce4fb05062327d4825c, type: 2}
