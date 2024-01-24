@@ -793,8 +793,17 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DamageCooldown","value":{"$content":0.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Scene","value":{"$content":"Menu
         Lose","$type":"System.String"},"typeHandle":{"Identification":"System.String,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FadeObject","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
+    - target: {fileID: 302060218, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 302060218, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1887261844}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6821,6 +6830,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 2f9ce34862cbe9c4aa1059bcae9a0b37,
     type: 3}
   m_PrefabInstance: {fileID: 1866309779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1887261844 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8143837037469073229, guid: 059b59588a0208742a651fd9ff460d25,
+    type: 3}
+  m_PrefabInstance: {fileID: 6343320869987738542}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1888314535
 PrefabInstance:
